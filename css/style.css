@@ -1,28 +1,4 @@
-﻿body
-{
-    background:url(../images/wood1.jpg);
-    background-size:cover;
-    color:white;
-    font-family:Roboto;
-}
-.navbar {
-	background-color: #2a1d14;
-	font-size: 20px;
-    font-weight:300;
-	transition: .25s all linear;
-    margin:auto;
-}
-.navbar:hover{
-    background-color:#b9dfdd;
-    transition:background-color ease-in 1.3s;
-}
-p{
-    font-weight:500;
-    max-width:1300px;
-}
-
-
-/*timeline starts here*/
+﻿/*timeline starts here*/
 
 
 /* -------------------------------- 
@@ -419,3 +395,27 @@ li{
 .events-content{
     margin:auto;
 }
+
+
+
+body
+{
+    background:url(../images/wood1.jpg);
+    background-size:cover;
+    color:white;
+    font-family:Roboto;
+    margin:auto;
+}
+nav{
+    margin:auto;
+    text-align:center;
+}
+a{
+    text-align:center;
+    margin:auto;
+}
+p{
+    font-weight:500;
+    max-width:1300px;
+}
+
