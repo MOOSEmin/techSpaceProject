@@ -282,9 +282,9 @@ Main Components
 }
 .cd-horizontal-timeline .events-content h2 {
   font-weight: bold;
-  font-size: 2.6rem;
-  font-family: "Playfair Display", serif;
-  font-weight: 700;
+  font-size: 2.rem;
+  font-family: Roboto;
+  font-weight: 200;
   line-height: 1.2;
 }
 .cd-horizontal-timeline .events-content em {
@@ -402,7 +402,7 @@ li{
 body
 {
     background:url(../images/wood1.jpg);
-    background-size:cover;
+    background-attachment:fixed;
     color:white;
     font-family:Roboto;
     margin:auto;
@@ -432,4 +432,147 @@ p{
 }
 #navLink{
     margin:90px;
+}
+.profile{
+    width: 29%;
+    min-height: 470px;
+    max-height:800px;
+    background-color:#121212;
+    text-align:center;
+    transition:0.4s;
+    font-size:18px;
+    margin-bottom:20px;
+    position:page;
+}
+.profile:hover{
+    transition:0.4s;
+    width:31%;
+    font-size:19px;
+}
+.pLeft{
+    margin-left:4%;
+    margin-right:2%;
+    float:left;
+}
+.pCenter{
+    margin:auto;
+    float:left;
+}
+.pRight{
+    margin-left:2%;
+    margin-right:3%;
+    float:left;
+}
+h1{
+    color:white;
+    font-size:2em;
+    font-weight:400;
+    margin:10px;
+}
+h2{
+    width:85%;
+    margin:auto;
+    margin-bottom:15px;
+    font-weight:200;
+}
+.facultyTitle{
+    margin:auto;
+    text-align:center;
+    font-size:72px;
+    color: white;
+    font-weight:200;
+    margin-bottom:10px;
+}
+.footer{
+    display:inline-block;
+    background-color:black;
+    text-align:center;
+    width:100%;
+    padding-bottom:10px;
+}
+
+
+
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+.jffooter {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.jfsocial {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  margin: 0 10px;
+  line-height: 70px;
+  font-family: Entypo;
+  font-size: 35px;
+  text-align: center;
+  color: #bbb;
+  border-radius: 50%;
+  background: #eee;
+  overflow: hidden;
+  transition: color .3s;
+}
+
+.jfsocial:hover {
+  color: #000;
+  cursor: pointer;
+}
+
+.jfsocial {
+  box-shadow: rgb(210, 210, 210) 1px 1px,
+    rgb(210, 210, 210) 2px 2px,
+    rgb(211, 211, 211) 3px 3px,
+    rgb(211, 211, 211) 4px 4px,
+    rgb(211, 211, 211) 5px 5px,
+    rgb(212, 212, 212) 6px 6px,
+    rgb(212, 212, 212) 7px 7px,
+    rgb(212, 212, 212) 8px 8px,
+    rgb(213, 213, 213) 9px 9px,
+    rgb(213, 213, 213) 10px 10px,
+    rgb(214, 214, 214) 11px 11px,
+    rgb(214, 214, 214) 12px 12px,
+    rgb(214, 214, 214) 13px 13px,
+    rgb(215, 215, 215) 14px 14px,
+    rgb(215, 215, 215) 15px 15px,
+    rgb(215, 215, 215) 16px 16px,
+    rgb(216, 216, 216) 17px 17px,
+    rgb(216, 216, 216) 18px 18px,
+    rgb(216, 216, 216) 19px 19px,
+    rgb(217, 217, 217) 20px 20px,
+    rgb(217, 217, 217) 21px 21px,
+    rgb(218, 218, 218) 22px 22px,
+    rgb(218, 218, 218) 23px 23px,
+    rgb(218, 218, 218) 24px 24px,
+    rgb(219, 219, 219) 25px 25px,
+    rgb(219, 219, 219) 26px 26px,
+    rgb(219, 219, 219) 27px 27px,
+    rgb(220, 220, 220) 28px 28px,
+    rgb(220, 220, 220) 29px 29px,
+    rgb(221, 221, 221) 30px 30px;
+   text-shadow: rgb(226, 226, 226) 1px 1px,
+    rgb(227, 227, 227) 2px 2px,
+    rgb(227, 227, 227) 3px 3px,
+    rgb(228, 228, 228) 4px 4px,
+    rgb(229, 229, 229) 5px 5px,
+    rgb(229, 229, 229) 6px 6px,
+    rgb(230, 230, 230) 7px 7px,
+    rgb(230, 230, 230) 8px 8px,
+    rgb(231, 231, 231) 9px 9px,
+    rgb(232, 232, 232) 10px 10px,
+    rgb(232, 232, 232) 11px 11px,
+    rgb(233, 233, 233) 12px 12px,
+    rgb(233, 233, 233) 13px 13px,
+    rgb(234, 234, 234) 14px 14px,
+    rgb(235, 235, 235) 15px 15px,
+    rgb(235, 235, 235) 16px 16px,
+    rgb(236, 236, 236) 17px 17px,
+    rgb(236, 236, 236) 18px 18px,
+    rgb(237, 237, 237) 19px 19px,
+    rgb(238, 238, 238) 20px 20px;
 }
