@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{DD9F4102-55CE-4AA8-B6E0-DBB9578CA324}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "techSpaceProject", ".", "{14679060-31F8-4811-9240-7820DBDA0D0B}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "techSpaceProject", ".", "{274F9EA0-0EA3-47B0-877D-AF63AF60E97E}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_51390"
@@ -31,8 +31,8 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{14679060-31F8-4811-9240-7820DBDA0D0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{14679060-31F8-4811-9240-7820DBDA0D0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{274F9EA0-0EA3-47B0-877D-AF63AF60E97E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{274F9EA0-0EA3-47B0-877D-AF63AF60E97E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
