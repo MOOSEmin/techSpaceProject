@@ -11,7 +11,8 @@ Primary style
 }
 
 html {
-  font-size: 62.5%;
+font-family:Roboto;
+font-size: 62.5%;
 }
 
 /* -------------------------------- 
@@ -420,12 +421,12 @@ a{
     text-align:center;
     color:white;
     text-decoration:none;
+    transition:0.3s;
 }
 a:hover{
     text-decoration:none;
-    transform:scale(2);
-    -webkit-text-size-adjust: 110%;
-    
+    color:#54f5ff;
+    transition:0.3s;
 }
 p{
     font-weight:500;
@@ -484,6 +485,11 @@ h2{
     font-weight:200;
     font-size:1em;
 }
+h3{
+    font-size:28px;
+    font-weight:200;
+    margin:5px;
+}
 .facultyTitle{
     margin:auto;
     text-align:center;
@@ -500,9 +506,83 @@ h2{
     padding-top: 5px;
     padding-bottom:25px;
 }
-
-
-
+.info{
+    font-size:32px;
+    font-weight:200;
+    text-align:center;
+}
+.left{
+    float:left;
+    width:50%;
+    height:771px;
+}
+.right{
+    float:right;
+    width:50%;
+    height:771px;
+}
+.C{
+    background-color:rgba(0, 0, 0, 0.00);
+    transition: 1s;
+}
+.C:hover{
+    background-color:rgba(30, 30, 30, 0.40);
+    transition:1s;
+}
+.CHeader{
+    background-color:black;
+    display:inline-block;
+    text-align:center;
+    padding:0;
+    margin:0;
+    width:100%;
+}
+.forms{
+    font-size:26px;
+    font-weight:200;
+}
+input{
+    background-color:#a7d5cd;
+    transition:0.3s;
+}
+input:focus{
+    background-color:white;
+    transition:0.3s;
+}
+textarea{
+    background-color:#a7d5cd;
+    transition:0.3s;
+}
+textarea:focus{
+    background-color:white;
+    transition:0.3s;
+}
+.myButton {
+	box-shadow: 0px 0px 10px 2px #29bbff;
+	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+	background-color:#2dabf9;
+	border-radius:42px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	padding:15px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 10px #263666;
+    margin: 10px 360px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+	background-color:#0688fa;
+    color:white;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+    color:white;
+}
 
 /* entypo */
 [class*="entypo-"]:before {
