@@ -432,6 +432,13 @@ p{
     font-weight:500;
     max-width:1300px;
 }
+.aCont{
+    font-weight:300;
+    font-size:18px;
+    width:1400px;
+    margin:auto;
+    line-height:120%;
+}
 #navLink{
     margin:90px;
     transition:0.6s;
